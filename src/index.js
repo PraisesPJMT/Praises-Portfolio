@@ -9,4 +9,3 @@ AppRoot.render(
     <App />
   </React.StrictMode>,
 );
-
