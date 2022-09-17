@@ -1,29 +1,10 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './styles/Header.css';
+import { navLinks } from './data';
 
 const Header = () => {
-  const Navigation = [
-    {
-      id: 1,
-      name: 'Portfolio',
-      path: '#profile',
-      className: 'nav-home nav-link',
-    },
-    {
-      id: 2,
-      name: 'About',
-      path: '#about',
-      className: 'nav-about nav-link',
-    },
-    {
-      id: 3,
-      name: 'Contact',
-      path: '#contact',
-      className: 'nav-contact nav-link',
-    },
-  ];
-  const NavBars = Navigation.map((nav) => (
+  const NavBars = navLinks.map((nav) => (
     <NavLink
       to={nav.path}
       className={nav.className}
