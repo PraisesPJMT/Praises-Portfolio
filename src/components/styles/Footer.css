@@ -1,0 +1,53 @@
+/* Footer */
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background: #e7eff4;
+  height: 8rem;
+  margin-top: auto;
+  color: #5d87a8;
+}
+
+.footer {
+  display: flex;
+  margin: 0.2rem 3rem;
+  padding: 2rem 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #5d87a8;
+}
+
+.footer-name {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-email {
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-email:hover {
+  text-decoration: underline;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-link {
+  margin: 0.2rem;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  scale: 1.15;
+}
