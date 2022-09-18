@@ -1,23 +1,25 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import './styles/Header.css';
 import { navLinks } from './data';
 
 const Header = () => {
   const NavBars = navLinks.map((nav) => (
-    <NavLink
+    <NavHashLink
       to={nav.path}
       className={nav.className}
       key={nav.id}
+      smooth
     >
       {nav.name}
-    </NavLink>
+    </NavHashLink>
   ));
   return (
     <header className="header">
       <Link
         className="logo"
-        to="#profile"
+        to="/"
       >
         <h2>
           Praises Tula
