@@ -1,0 +1,174 @@
+/* Cover Styles */
+
+.cover {
+  margin: 0.2rem 3rem;
+  padding: 0.2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  height: 60vh;
+}
+
+.info-container {
+  width: 50%;
+}
+
+.hello {
+  font-size: 2.5rem;
+  color: #af48ff;
+}
+
+.info-display {
+  width: 45%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.info-wrapper {
+  width: 247px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 214px;
+  box-shadow: 0 40px 30px rgba(25, 25, 46, 0.05);
+  border-radius: 13px;
+}
+
+.picture-container {
+  width: 50%;
+  position: relative;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  bottom: -5%;
+  left: 18%;
+  background: linear-gradient(135deg, #ff26b2 0%, #851bd9 64.06%, #3f0fff 100%);
+  box-shadow: 0 5px 20px rgba(250, 118, 96, 0.2);
+  border-radius: 65px;
+  font-size: 0.6rem;
+  font-weight: 900;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.name {
+  color: #25323d;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 0.9em;
+}
+
+.location {
+  color: #859fb4;
+  text-align: center;
+  font-size: 14px;
+}
+
+.stack {
+  position: absolute;
+  color: #5d87a8;
+  font-size: 18px;
+  padding: 0.3rem 0.5rem;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(25, 25, 46, 0.01);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+}
+
+.stack:hover {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.stack-icon {
+  font-size: 2rem;
+}
+
+.react {
+  top: 10%;
+  left: 15%;
+}
+
+.react-icon {
+  color: #61dbfb;
+}
+
+.git {
+  top: 20%;
+  right: 10%;
+}
+
+.git-icon {
+  color: #f1502f;
+}
+
+.js {
+  right: 15%;
+  bottom: 15%;
+}
+
+.js-icon {
+  color: #f0db4f;
+}
+
+.css {
+  top: 68%;
+  left: 8%;
+}
+
+.css-icon {
+  color: #2965f1;
+}
+
+.html {
+  top: 27%;
+  left: 0;
+}
+
+.html-icon {
+  color: #f06529;
+}
+
+.python {
+  right: 0;
+  bottom: 40%;
+}
+
+.python-icon {
+  color: #306998;
+}
+
+.c-prog {
+  top: 0;
+  right: 20%;
+}
+
+.c-prog-icon {
+  color: #4b8bbe;
+}
+
+.redux {
+  bottom: 0;
+  left: 30%;
+}
+
+.redux-icon {
+  color: #00a7e5;
+}
